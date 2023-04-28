@@ -16,9 +16,5 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
-}  
-
-.labelInputContenedor {
-    display: flex;
+    width: 500px;
 }
