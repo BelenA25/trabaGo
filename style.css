@@ -1,12 +1,12 @@
 body {
 	font-family: Arial, sans-serif;
-	background-color: #f4f4f4;
+	background-color: black;
 }
 
 h1 {
 	text-align: center;
-	color: #333;
-}
+	color: #FFE6C7;
+} 
 
 form {
 	margin: 0 auto;
@@ -57,15 +57,18 @@ a:hover {
     display: flex;
     justify-content: space-between;
     height: 700px;
+    padding-top: 10%;
   }
   
   .left-box {
     flex: 1;
-    background-color: #ae8f8f;
+    color: #FF6000;
+    padding-left: 10%;
   }
   
   .right-box {
     flex: 2;
     background-color: #ddd;
+    background-color: black;
   }
   
