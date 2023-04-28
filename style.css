@@ -51,4 +51,22 @@ a {
 
 a:hover {
 	text-decoration: underline;
-}
+} 
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .left-box {
+    flex: 1;
+    background-color: #ae8f8f;
+  }
+  
+  .right-box {
+    flex: 2;
+    background-color: #ddd;
+  }
+  
