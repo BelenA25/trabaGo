@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+html body {
+    padding-top: 130px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.index {
+    background: rgb(8,23,23);
+background: linear-gradient(0deg, rgba(8,23,23,1) 0%, rgba(253,146,45,1) 56%, rgba(253,146,45,1) 80%);
+    vertical-align: middle;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+#indexnav {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contenedor-flexible-22 {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-weight: 530;
+}
+
+.encabezado {
+    background: rgb(63, 94, 251);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,14,9,1) 35%, rgba(255,149,0,1) 100%);
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: #fff;
+    height: 130px;
+    display: flex !important;
+    /*flexbox*/
+    align-items: center !important;
+    /*centrar elementos de manera vertical*/
+    justify-content: space-between !important;
+    font-size: 13px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.contenedor-flexible-1 {
+    display: flex !important;
+    margin-left: 200px !important;
+    flex-direction: column !important;
+}
+
+.tittle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 400% !important;
+}
+
+#tittle2 {
+    font-size: 140% !important;
+    font-weight: 300;
+}
+
+.miniTittle {
+    font-size: 150% !important;
+}
+
+.contenedor-flexible-2 {
+    display: flex;
+    font-size: 150% !important;
+}
+
+.elemento-flexible-2 {
+    width: 170px !important;
+}
+
+#nav {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contenedor-flexible-3 {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-right: 100px;
+}
+
+.contenedor-flexible-4 {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    gap: 40%;
+}
+
+.bloque {
+    background: rgb(252,176,69);
+background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(186,39,39,1) 50%, rgba(0,0,0,1) 100%);
+    position: fixed;
+    align-items: center !important;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left: 5%;
+    justify-content: space-between !important;
+    padding: 40px;
+    gap: 20px;
+    margin-top: 70px;
+    width: 190px;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+}
+
+.elementos {
+    width: 250px;
+}
+
+#indice {
+    text-decoration: none;
+    color: #fff;
+}
+
+#indice:hover {
+    color: #000;
+}
+
+.contenedor-flexible-5 {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+table {
+    font: 1.5em;
+    line-height: 4ch;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th,
+td, tr {
+    border: 1px solid black;
+}
+
+#tittle {
+    float: right;
+    margin-right: 70px;
+}
+
+#linea:hover {
+    background-color: rgb(254, 209, 218);
+
+    box-shadow: rgb(190, 122, 136) -1px 1px, rgb(190, 122, 136) -2px 2px, rgb(190, 122, 136) -2px 2px -3px 3px, rgb(190, 122, 136) -4px 4px, rgb(190, 122, 136) -5px 5px, rgb(190, 122, 136)-6px 6px;
+    transform: translate3d(6px, -6px, 0);
+
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: line;
+}
+
+td a {
+    display: block;
+    width: 100%;
+}
+
+a:not(#tdlink,#cssLink,#navInt) {
+    background-image: linear-gradient(to right,
+            #010303,
+            #0e171a 50%,
+            rgb(250, 246, 246) 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+a:not(#tdlink,#cssLink,#navInt):before {
+    content: '';
+    background: #141d21;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+a:not(#tdlink,#cssLink,#navInt):hover {
+    background-position: 0;
+}
+
+a:not(#tdlink,#cssLink,#navInt):hover::before {
+    width: 100%;
+}
+/**/
+#navInt {
+    background-image: linear-gradient(to right,
+            #ffffff,
+            #ffffff 50%,
+            rgb(0, 0, 0) 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+#navInt:before {
+    content: '';
+    background: #ffffff;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+#navInt:hover {
+    background-position: 0;
+}
+
+#navInt:hover::before {
+    width: 100%;
+}
+.visibleBodyCSS{
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+}
