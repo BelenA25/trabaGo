@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="empleadoRegistro.css">
+    <link rel="stylesheet" href="navbar.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="registroPaginaCont">
+        <div class="registroContenedor">
+            <div class="botonesContenedor">
+                <button>Empleado</button>
+                <button>Empresa</button>
+            </div>
+            <div class="formContenedor">
+                <form action="/action_page.php">
+                    <label for="nombre">Nombre (s):</label><br>
+                    <input type="text" id="nombre" name="nombre"><br>
+                    <label for="apellidoP">Apellido Paterno:</label><br>
+                    <input type="text" id="apellidoP" name="apellidoP"><br>
+                    <label for="apellidoM">Apellido Materno:</label><br>
+                    <input type="text" id="apellidoM" name="apellidoM"><br>
+                    <label for="genero">Genero:</label><br>
+                    <input type="radio" id="genero" name="nombre" value="varon">
+                    Hombre
+                    <br>
+                    <input type="radio" id="genero" name="nombre" value="mujer">
+                    Mujer
+                    <br>
+                    <label for="celular">N° celular:</label><br>
+                    <input type="text" id="celular" name="celular"><br>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="text" id="correo" name="correo"><br>
+                    <label for="contra">Contraseña:</label><br>
+                    <input type="text" id="contra" name="contra"><br>
+                    <label for="contraRep">Confirmar contraseña:</label><br>
+                    <input type="text" id="contraRep" name="contraRep"><br>
+                    
+                    <input type="submit" value="Registrar">
+                  </form> 
+            </div>
+        </div>
+    </div>
+    
+<script src="empleadoRegistro.js"></script>
+</body>
+</html>

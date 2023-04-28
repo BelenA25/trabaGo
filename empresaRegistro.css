@@ -1,0 +1,20 @@
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.registroPaginaCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+
+.registroContenedor {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+}

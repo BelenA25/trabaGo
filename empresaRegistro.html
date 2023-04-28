@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="empresaRegistro.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="registroPaginaCont">
+        <div class="registroContenedor">
+            <div class="botonesContenedor">
+                <button>Empleado</button>
+                <button>Empresa</button>
+            </div>
+            <div class="formContenedor">
+                <form action="/action_page.php">
+                    <label for="nombreEmpresa">Nombre de la empresa</label><br>
+                    <input type="text" id="nombreEmpresa" name="nombreEmpresa"><br>
+                    <label for="tipoempresa">Tipo de empresa:</label><br>
+                    <div id="contenedorRadioBotones">
+                        <input type="radio" id="tipoempresa" name="tipoempresa" value="comercioformal" onchange="crearTB_NIT()">
+                        Comercio Formal
+                        <br>
+                        <input type="radio" id="tipoempresa" name="tipoempresa" value="comercioinformal">
+                        Comercio Informal
+                        <br>
+                    </div>
+                    <label for="celular">N° celular (Encargado):</label><br>
+                    <input type="text" id="celular" name="celular"><br>
+                    <label for="correo">Correo electrónico (Encargado):</label><br>
+                    <input type="text" id="correo" name="correo"><br>
+                    <label for="contra">Contraseña:</label><br>
+                    <input type="text" id="contra" name="contra"><br>
+                    <label for="contraRep">Confirmar contraseña:</label><br>
+                    <input type="text" id="contraRep" name="contraRep"><br>
+                    
+                    <input type="submit" value="Registrar" id="registrar">
+                  </form> 
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
