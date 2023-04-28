@@ -13,9 +13,11 @@ body {
 
 .registroContenedor {
     margin-top: 150px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 500px;
+}
+.formContenedor{
+    border:1px solid black;
+    padding: 70px;
 }
