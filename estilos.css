@@ -155,7 +155,9 @@ table {
     width: 50%;
     border-collapse: collapse;
 }
-
+td{
+    padding: 9px;;
+}
 th,
 td, tr {
     border: 1px solid black;
@@ -167,7 +169,7 @@ td, tr {
 }
 
 #linea:hover {
-    background-color: rgb(254, 209, 218);
+    background-color: rgba(227, 114, 48, 0.807);
 
     box-shadow: rgb(190, 122, 136) -1px 1px, rgb(190, 122, 136) -2px 2px, rgb(190, 122, 136) -2px 2px -3px 3px, rgb(190, 122, 136) -4px 4px, rgb(190, 122, 136) -5px 5px, rgb(190, 122, 136)-6px 6px;
     transform: translate3d(6px, -6px, 0);
