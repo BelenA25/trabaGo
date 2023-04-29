@@ -8,20 +8,17 @@
 	<link rel="stylesheet" href="css/index.css">
 	<title>trabaGo</title>
 
-	<script>
-		function RegistrarsePag(){
-			window.location.href = "html/empleadoRegistro.html";
-		}
-	</script>
+	<script src="./js/index.js"></script>
 </head>
 
 <body>
 	<div class="container">
 		<div class="left-box">
 			<h1>TrabaGo</h1>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iste, numquam explicabo quia officia
-				iusto ratione vero sunt, ducimus qui, ad eaque natus esse. Error perferendis quisquam adipisci officiis
-				expedita!</p>
+			<p>TrabaGo es una lugar donde puedes encontrar trabajo de cualquier tipo, 
+				en esta pagina existen trabajos de medio tiempo, tiempo completo y trabajos 
+				diarios
+			</p>
 		</div>
 		<div class="right-box">
 			<h1>Iniciar sesión</h1>
@@ -32,7 +29,7 @@
 				<label for="password">Contraseña:</label>
 				<input type="password" id="password" name="password">
 				<br>
-				<input type="submit" value="Iniciar sesión">
+				<input type="button" value="Iniciar sesión" onclick="LogIn()">
 				<input type="button" value="Registrarse" id="buttonBT" onclick="RegistrarsePag()">
 			</form>
 		</div>
