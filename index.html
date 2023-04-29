@@ -8,10 +8,7 @@
 	<link rel="stylesheet" href="css/index.css">
 	<title>trabaGo</title>
 
-	<script>
-		function RegistrarsePag(){
-			window.location.href = "html/empleadoRegistro.html";
-		}
+	<script src="./js/index.js">
 	</script>
 </head>
 
@@ -32,7 +29,7 @@
 				<label for="password">Contraseña:</label>
 				<input type="password" id="password" name="password">
 				<br>
-				<input type="submit" value="Iniciar sesión">
+				<input type="button" value="Iniciar sesión" id="buttonLogIn" onclick="LogIn()">
 				<input type="button" value="Registrarse" id="buttonBT" onclick="RegistrarsePag()">
 			</form>
 		</div>

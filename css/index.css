@@ -5,7 +5,7 @@ body {
 
 h1 {
 	text-align: center;
-	color: #FFE6C7;
+	color: #ffffff;
 } 
 
 form {
@@ -33,7 +33,7 @@ input[type="password"] {
 	box-sizing: border-box;
 }
 
-input[type="submit"] {
+input[type="button"] {
 	background-color: #333;
 	color: #fff;
 	border: none;
@@ -71,14 +71,3 @@ a:hover {
     background-color: #ddd;
     background-color: black;
   }
-
-  input[type="button"] {
-	background-color: #333;
-	color: #fff;
-	border: none;
-	padding: 10px;
-	width: 100%;
-	border-radius: 5px;
-	cursor: pointer;
-	margin-top: 10px;
-}
