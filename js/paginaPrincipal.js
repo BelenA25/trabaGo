@@ -1,0 +1,1 @@
+alert ("paginaPrincipal.js is included");
