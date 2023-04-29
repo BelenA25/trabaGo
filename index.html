@@ -7,6 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/index.css">
 	<title>trabaGo</title>
+
+	<script>
+		function RegistrarsePag(){
+			window.location.href = "html/empleadoRegistro.html";
+		}
+	</script>
 </head>
 
 <body>
@@ -27,7 +33,7 @@
 				<input type="password" id="password" name="password">
 				<br>
 				<input type="submit" value="Iniciar sesión">
-				<input type="submit" value="Registrarse">
+				<input type="button" value="Registrarse" id="buttonBT" onclick="RegistrarsePag()">
 			</form>
 		</div>
 	</div>
