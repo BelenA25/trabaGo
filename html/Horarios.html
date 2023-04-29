@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/HorariosStyle.css">
+    <title>TrabaGo</title>
+</head>
+<body>
+    <div class="encabezado">
+        <div class="contenedor-flexible-1">
+            <a id="nav" href="paginaPrincipal.html">
+                <div class="tittle">TrabaGo</div>
+            </a>
+        </div>
+        <div class="contenedor-flexible-2">
+            <div class="elemento-flexible-2"><a id="nav" href="../html/EditarPerfil.html">Perfil</a></div>
+            <div class="elemento-flexible-2"><a id="nav" href="../html/TempWork.html">Rapido</a></div>
+            <div class="dropdown">
+                <div class="elemento-flexible-2"><a id="nav" href="../html/Horarios.html">Horarios</a></div>
+            </div>
+        </div>
+    </div>
+    <center>
+        <div class="visibleBody" id="visibleBody">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trabajo</th>
+                        <th>Día</th>
+                        <th>Turno Mañana</th>
+                        <th>Turno Tarde</th>
+                        <th>Turno Noche</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="linea">
+                        <td>
+                            <h2>Cocinero</h2>
+                            <h3>Pollos Lucho</h3>
+                        </td>
+                        <td>Lunes - Domingo</td>
+                        <td class="turno-manana">8:00 AM - 12:00 PM</td>
+                        <td class="turno-tarde">1:00 PM - 5:00 PM</td>
+                        <td class="turno-noche">6:00 PM - 10:00 PM</td>
+                    </tr>
+                    <tr id="linea">
+                        <td>
+                            <h2>Cajero</h2>
+                                <h3 style="align-items: end;">BMSC</h3>
+                        </td>
+                        <td>Lunes - Viernes</td>
+                        <td class="turno-manana">8:00 AM - 12:00 PM</td>
+                        <td class="turno-tarde">1:00 PM - 6:00 PM</td>
+                        <td class="turno-noche">No hay atencion</td>
+                    </tr>
+                    <tr id="linea">
+                        <td>
+                            <h2>Programador</h2>
+                            <h3>Jala</h3>
+                        </td>
+                        <td>Lunes - Sabado</td>
+                        <td class="turno-manana">10:00 AM - 12:00 PM</td>
+                        <td class="turno-tarde">3:00 PM - 8:00 PM</td>
+                        <td class="turno-noche">No hay atencion</td>
+                    </tr>
+                    <tr id="linea">
+                        <td>
+                            <h2>Profesor</h2>
+                            <h4>Colegio Santa Ana</h4>
+                        </td>
+                        <td>Lunes - Sabado</td>
+                        <td class="turno-manana">7:30 AM - 13:10 PM</td>
+                        <td class="turno-tarde">2:00 PM - 6:30 PM</td>
+                        <td class="turno-noche">No hay atencion</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button onclick="window.print()">Imprimir</button>
+        </div>
+    </center>
+</body>
+</html>
